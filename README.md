@@ -31,7 +31,6 @@ Adicione um objeto ao array `projects` em `src/data/projects.ts`. Os textos bil�
 ## Preencha antes de publicar
 
 - LinkedIn, e-mail e WhatsApp já estão configurados
-- Domínio e URL canônica
 - Currículo PT: preencher os links de GitHub e Portfólio no PDF e usar Tecnólogo em Marketing; atualizar o PDF em inglês com o link do portfólio após o deploy
 - Imagens e mockups reais
 - Links dos repositórios e demos
@@ -55,14 +54,12 @@ Adicione um objeto ao array `projects` em `src/data/projects.ts`. Os textos bil�
 5. Teste larguras de 360, 768 e 1280 px.
 6. Ative movimento reduzido e confirme a ausência de animações persistentes.
 
-## Deploy
+## Deploy no Cloudflare Workers (Static Assets)
 
-Use Vercel ou Netlify com `npm run build`. Para GitHub Pages, configure o `base` do Vite para o caminho do repositório e publique `dist`.
-
-## Deploy na Cloudflare Pages
+O projeto é hospedado no Cloudflare Workers com static assets, configurados em `wrangler.jsonc`.
 
 - **Build command:** `npm run build`
-- **Output directory:** `dist`
-- **Variáveis de ambiente no painel:** `VITE_CONTACT_ACCESS_KEY` e `VITE_WHATSAPP_NUMBER`
+- **Deploy command:** `npx wrangler deploy`
+- **Build variables:** `VITE_CONTACT_ACCESS_KEY` e `VITE_WHATSAPP_NUMBER`
 
-Cadastre os valores dessas variáveis nas configurações de ambiente do projeto na Cloudflare Pages para os ambientes Production e Preview, conforme necessário. As variáveis com prefixo `VITE_` são incluídas no bundle do navegador; a chave Web3Forms é pública por desenho e não deve ser tratada como segredo.
+Cadastre `VITE_CONTACT_ACCESS_KEY` e `VITE_WHATSAPP_NUMBER` como Build variables nas configurações do projeto no Cloudflare Workers. As variáveis com prefixo `VITE_` são incluídas no bundle do navegador; a chave Web3Forms é pública por desenho e não deve ser tratada como segredo.

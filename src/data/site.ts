@@ -15,6 +15,6 @@ export const site: SiteConfig = {
     'pt-BR': 'Curriculo-Thiago-Garcia.pdf',
     'en-US': 'Resume-Thiago-Garcia.pdf',
   },
-  siteUrl: 'https://SEU-DOMINIO.com',
+  siteUrl: 'https://portfolio.thiagogarcia.workers.dev',
   whatsAppNumber: import.meta.env.VITE_WHATSAPP_NUMBER || '5548998482475',
 }

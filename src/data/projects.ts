@@ -38,6 +38,7 @@ export const projects: Project[] = [
     cover: { src: '/og-image.png', alt: { 'pt-BR': 'Capa do portfólio de Thiago Garcia', 'en-US': 'Cover image for Thiago Garcia’s portfolio' }, width: 1200, height: 630 },
     gallery: [],
     repoUrl: 'https://github.com/gthiago21/portfolio',
+    demoUrl: 'https://portfolio.thiagogarcia.workers.dev',
     featured: true,
   },
   {
