@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thiago Garcia | Desenvolvedor Full Stack</title>
+    <meta name="description" content="Portfólio de Thiago Garcia, Desenvolvedor Full Stack especializado em web, mobile e acessibilidade." />
+    <meta name="keywords" content="Thiago Garcia, Desenvolvedor Full Stack, React, React Native, Node.js, Java, Supabase" />
+    <meta name="author" content="Thiago Garcia" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://SEU-DOMINIO.com" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="theme-color" content="#09090B" />
+    <meta property="og:title" content="Thiago Garcia | Desenvolvedor Full Stack" />
+    <meta property="og:description" content="Web, mobile e acessibilidade digital." />
+    <meta property="og:image" content="https://SEU-DOMINIO.com/og-image.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://SEU-DOMINIO.com" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem('portfolio:theme');
+          const theme = saved === 'light' || saved === 'dark'
+            ? saved
+            : (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+          document.documentElement.classList.toggle('dark', theme === 'dark');
+          document.documentElement.style.colorScheme = theme;
+          document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#09090B' : '#FFFFFF');
+        } catch (_) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Thiago Garcia",
+        "jobTitle": "Desenvolvedor Full Stack",
+        "email": "thiago.garciatg4@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Palhoça", "addressRegion": "SC", "addressCountry": "BR" },
+        "sameAs": ["https://github.com/gthiago21", "https://www.linkedin.com/in/thiago-garcia-b71394352/"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

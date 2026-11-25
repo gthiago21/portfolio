@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09090B"/>
+      <stop offset="1" stop-color="#18181B"/>
+    </linearGradient>
+    <radialGradient id="accent-glow" cx="82%" cy="20%" r="68%">
+      <stop offset="0" stop-color="#60A5FA" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <rect width="1200" height="675" fill="url(#accent-glow)"/>
+  <rect x="36" y="36" width="1128" height="603" rx="28" fill="#18181B" fill-opacity=".72" stroke="#27272A" stroke-width="2"/>
+  <rect x="82" y="178" width="8" height="126" rx="4" fill="#60A5FA"/>
+  <text x="116" y="270" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#FAFAFA">Java 21 REST API</text>
+  <text x="118" y="326" font-family="Arial, sans-serif" font-size="34" fill="#A1A1AA">Backend development</text>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="600">
+    <rect x="116" y="378" width="132" height="54" rx="18" fill="#27272A" stroke="#3F3F46"/>
+    <text x="143" y="413" fill="#FAFAFA">Java 21</text>
+    <rect x="264" y="378" width="142" height="54" rx="18" fill="#27272A" stroke="#3F3F46"/>
+    <text x="290" y="413" fill="#FAFAFA">Maven</text>
+    <rect x="422" y="378" width="176" height="54" rx="18" fill="#27272A" stroke="#3F3F46"/>
+    <text x="445" y="413" fill="#FAFAFA">PostgreSQL</text>
+    <rect x="614" y="378" width="110" height="54" rx="18" fill="#27272A" stroke="#3F3F46"/>
+    <text x="636" y="413" fill="#FAFAFA">REST</text>
+  </g>
+  <rect x="810" y="143" width="294" height="382" rx="24" fill="#18181B" stroke="#3F3F46" stroke-width="2"/>
+  <circle cx="844" cy="180" r="7" fill="#60A5FA"/>
+  <text x="866" y="188" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#FAFAFA">API /v1</text>
+  <rect x="838" y="218" width="238" height="50" rx="12" fill="#27272A"/>
+  <text x="858" y="250" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#60A5FA">GET</text>
+  <rect x="914" y="239" width="134" height="9" rx="4" fill="#FAFAFA" fill-opacity=".8"/>
+  <g fill="#A1A1AA" fill-opacity=".8">
+    <rect x="858" y="304" width="184" height="10" rx="5"/>
+    <rect x="878" y="332" width="154" height="10" rx="5"/>
+    <rect x="878" y="360" width="170" height="10" rx="5"/>
+    <rect x="858" y="388" width="140" height="10" rx="5"/>
+  </g>
+  <rect x="838" y="434" width="238" height="58" rx="14" fill="#27272A"/>
+  <circle cx="866" cy="463" r="9" fill="#60A5FA"/>
+  <rect x="888" y="458" width="150" height="10" rx="5" fill="#FAFAFA" fill-opacity=".8"/>
+</svg>
