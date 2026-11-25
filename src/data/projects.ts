@@ -37,7 +37,7 @@ export const projects: Project[] = [
     technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion'],
     cover: { src: '/og-image.png', alt: { 'pt-BR': 'Capa do portfólio de Thiago Garcia', 'en-US': 'Cover image for Thiago Garcia’s portfolio' }, width: 1200, height: 630 },
     gallery: [],
-    repoUrl: 'https://github.com/gthiago21/portifolio',
+    repoUrl: 'https://github.com/gthiago21/portfolio',
     featured: true,
   },
   {
